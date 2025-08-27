@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    }
+
+    @media (max-width: 480px) {
+      .gallery img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>my website</h1>
+
+  <div class="gallery">
+  
+  
+    <img src="https://picsum.photos/150/220?random=5" alt="Book 5">
+    
+    <img src="https://picsum.photos/150/220?random=8" alt="Boo<!DOCTYPE html>
+    html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>my page</title>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f5f5f5;
+          margin: 0;
+          padding: 20px;
+          text-align: center;
+        }
+    
+        h1 {
+          color: #333;
+          margin-bottom: 20px;
+        }
+    
+        .gallery {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+          gap: 20px;
+          justify-items: center;
+          align-items: center;
+        }
+    
+        .gallery img {
+          width: 150px;
+          height: 220px;
+          object-fit: cover;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+          transition: transform 0.3s, box-shadow 0.3s;
+        }
+    
+        .gallery img:hover {
+          transform: scale(1.05);
+          box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+    
+        @media (max-width: 480px) {
+          .gallery img {
+            width: 80%;
+            height: auto;
+          }
+        }
+      </style>
+    </head>
+    <body>
+    
+      <h1>my  page</h1>
+    
+      <div class="gallery">
+        
+        
+        <img src="https://picsum.photos/150/220?random=5" alt="Book 5">
+    
+
+        <img src="https://picsum.photos/400/300?random=2" alt="Random Image 2">
+
+        <img src="https://picsum.photos/400/300?random=4" alt="Random Image 4">
+        <img src="https://picsum.photos/400/300?random=5" alt="Random Image 5">
+        <img src="https://picsum.photos/400/300?random=6" alt="Random Image 6"><img src="https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg" alt="Elegant Dress">
+        <h3>Elegant Dress</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg" alt="Casual Outfit">
+        <h3>Casual Outfit</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2983462/pexels-photo-2983462.jpeg" alt="Accessories">
+        <h3>Trendy Accessories</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2897532/pexels-photo-2897532.jpeg" alt="Men Fashion">
+        <h3>Men’s Fashion</h3>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2983465/pexels-photo-2983465.jpeg" alt="Summer Look">
+        <h3>Summer Look</h3>
+        </div>
+    
+    </body>
+    </html>
+  </div>
+</body>
+</html>
